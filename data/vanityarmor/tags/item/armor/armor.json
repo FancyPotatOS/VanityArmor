@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#vanityarmor:armor/chainmail",
+        "#vanityarmor:armor/diamond",
+        "#vanityarmor:armor/golden",
+        "#vanityarmor:armor/iron",
+        "#vanityarmor:armor/leather",
+        "#vanityarmor:armor/netherite",
+        "#vanityarmor:armor/other"
+    ]
+}
