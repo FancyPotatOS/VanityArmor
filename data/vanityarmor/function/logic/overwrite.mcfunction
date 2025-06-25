@@ -43,28 +43,28 @@ execute if data entity @e[tag=vanityarmor.source,limit=1] Item.components."minec
 
 # # Attribute Modifiers
 # Reset current modifiers
-data modify entity @s Item.components."minecraft:attribute_modifiers" set value {modifiers:[]}
+data modify entity @s Item.components."minecraft:attribute_modifiers" set value []
 # Knockback Resistance
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers prepend value {type:"knockback_resistance",amount:0,slot:feet,operation:add_value,id:"12351276000"}
-execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value feet
-execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value legs
-execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value chest
-execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value head
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.knockback_resistance
+data modify entity @s Item.components."minecraft:attribute_modifiers" prepend value {type:"knockback_resistance",amount:0,slot:feet,operation:add_value,id:"12351276000"}
+execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value feet
+execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value legs
+execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value chest
+execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value head
+data modify entity @s Item.components."minecraft:attribute_modifiers"[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.knockback_resistance
 # Armor Toughness
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers prepend value {type:"armor_toughness",amount:0,slot:feet,operation:add_value,id:"12351276000"}
-execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value feet
-execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value legs
-execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value chest
-execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value head
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.armor_toughness
+data modify entity @s Item.components."minecraft:attribute_modifiers" prepend value {type:"armor_toughness",amount:0,slot:feet,operation:add_value,id:"12351276000"}
+execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value feet
+execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value legs
+execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value chest
+execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value head
+data modify entity @s Item.components."minecraft:attribute_modifiers"[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.armor_toughness
 # Armor
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers prepend value {type:"armor",amount:0,slot:feet,operation:add_value,id:"12351276000"}
-execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value feet
-execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value legs
-execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value chest
-execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].slot set value head
-data modify entity @s Item.components."minecraft:attribute_modifiers".modifiers[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.armor
+data modify entity @s Item.components."minecraft:attribute_modifiers" prepend value {type:"armor",amount:0,slot:feet,operation:add_value,id:"12351276000"}
+execute if items entity @s contents #vanityarmor:armor/feet run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value feet
+execute if items entity @s contents #vanityarmor:armor/legs run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value legs
+execute if items entity @s contents #vanityarmor:armor/chest run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value chest
+execute if items entity @s contents #vanityarmor:armor/head run data modify entity @s Item.components."minecraft:attribute_modifiers"[0].slot set value head
+data modify entity @s Item.components."minecraft:attribute_modifiers"[0].amount set from entity @e[tag=vanityarmor.source,limit=1] Item.components."minecraft:custom_data".vanityarmor.armor
 
 # Clean up old armor piece
 playsound entity.villager.work_cleric block @a[distance=..30] ~ ~ ~ 1 0.5 0.2
