@@ -14,7 +14,5 @@ tellraw @a ["",{"text":"[Vanity Armor Datapack]","bold":true,"color":"dark_blue"
 # Set the version
 scoreboard players set version vanityarmor.master 1
 
-
-
 return 0
 scoreboard objectives add fpconflict.conflict_map dummy
