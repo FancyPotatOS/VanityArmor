@@ -19,5 +19,5 @@ When you hear bubbling, then the armor piece has been successfully overwritten
 
 There is no feature to undo a vanity change, however there is a function you can run in case you wish to split the pieces.
 
-Run the command `/execute as @e[type=item,limit=1,sort=nearest] run function vanityarmor:split` to split apart the nearest item to you.
+Run the command `/execute as @n[type=item] run function vanityarmor:split` to split apart the nearest item to you.
 
