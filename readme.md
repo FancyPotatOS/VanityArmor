@@ -15,6 +15,8 @@ Throw the vanity piece and the target armor piece into a water cauldron.
 
 When you hear bubbling, then the armor piece has been successfully overwritten
 
+Note that if you want trims to appear, you'll actually need to put it on the original armor piece, not the vanity one!
+
 ### Failsafe
 
 There is no feature to undo a vanity change, however there is a function you can run in case you wish to split the pieces.
