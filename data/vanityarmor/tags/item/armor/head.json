@@ -6,6 +6,9 @@
         "golden_helmet",
         "iron_helmet",
         "leather_helmet",
-        "netherite_helmet"
+        "netherite_helmet",
+        
+        "turtle_helmet",
+        "#minecraft:skulls"
     ]
 }

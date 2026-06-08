@@ -8,6 +8,21 @@
 Adds the ability to turn your armorsets into whatever armor pieces you want
 
 
+### Resource Pack
+
+There is included two resource packs. Unfortunately, you must use one or the other if you want vanity items with heads or skulls to look correct.
+
+- Resource Pack (Original)
+
+Skulls look completely normal, this is just a fix for vanity armor that uses skulls and heads.
+
+- Resource Pack (Improved)
+
+Provides special models for vanity skulls and heads, so that the skull fits _juuuuust_ above the player's inner skin layer. This allows you to wear them as if it's a part of your own skin!
+
+![comparison](./comparison.png)
+
+
 ### How To Use
 
 Rename the target vanity armor piece to **_vanity_** in the anvil.

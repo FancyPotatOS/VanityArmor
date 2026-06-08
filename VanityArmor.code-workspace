@@ -2,6 +2,12 @@
 	"folders": [
         {
             "path": "."
+        },
+        {
+            "path": "../../../../resourcepacks/VanityArmorResourcePack - 26.1.2"
+        },
+        {
+            "path": "../../../../resourcepacks/VanityArmorOriginalResourcePack - 26.1.2"
         }
     ],
     "settings": {

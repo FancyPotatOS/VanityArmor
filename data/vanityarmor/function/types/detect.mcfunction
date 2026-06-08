@@ -6,3 +6,5 @@ execute if items entity @s container.* #vanityarmor:armor/golden run function va
 execute if items entity @s container.* #vanityarmor:armor/leather run function vanityarmor:types/leather
 execute if items entity @s container.* #vanityarmor:armor/netherite run function vanityarmor:types/netherite
 execute if items entity @s container.* #vanityarmor:armor/iron run function vanityarmor:types/iron
+
+execute if items entity @s container.* #vanityarmor:armor/other run function vanityarmor:types/other

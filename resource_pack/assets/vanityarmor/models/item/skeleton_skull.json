@@ -1,0 +1,6 @@
+{
+	"parent": "vanityarmor:item/template_skull",
+	"textures": {
+		"1": "vanityarmor:item/skeleton_skull"
+	}
+}
